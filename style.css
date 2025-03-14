@@ -6,11 +6,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;  
-    background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg);  
+    font-family: Arial, sans-serif;    
 }
 
-.logo h1 {
+.Logo h1 {
     color: rgb(255, 255, 255);
 }
 
@@ -27,7 +26,7 @@ body {
 }
 
 .nav-links li {
-    margin: 0 100px;
+    margin: 0 20px;
 }
 
 .nav-links a {
@@ -38,28 +37,43 @@ body {
 }
 
 .nav-links a:hover {
-    color: #484081;
+    color: #1abc9c;
 }
 
 
-.img-container {
+.card-container {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin: 160px auto;
+    margin: 150px auto;
+    padding: 10px;
+    max-width: 1200px;
 }
 
-
-.img1:hover{
-    transform: scale(1.5);
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.img2:hover{
-    transform: scale(1.5);
+.card:hover {
+    transform: translateY(-20px);
 }
 
-.img3:hover {
-    transform: scale(1.5);
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card p {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
 }
 
 .learn-container{
@@ -70,6 +84,47 @@ body {
     padding: 10px;
     max-width: 1200px;
 }
+
+.learn {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.learn p1 {
+    margin: 10px;
+    display: flex;
+    padding: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.employe-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 15px auto;
+    padding: 10px;
+    max-width: 1200px;
+}
+
+.contacts1 {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.contacts1 p {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
 
 h2 
 {
